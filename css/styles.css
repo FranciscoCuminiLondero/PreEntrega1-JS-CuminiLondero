@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-image: url(../images/disco.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0px 20px;
+    background-color: rgba(240, 248, 255, 0.295);
+}
+
+.container p {
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0px 20px;
+    background-color: rgba(240, 248, 255, 0.295);
+}
